@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 60px;
+}
+img { 
+  display:block; 
+  padding: 20px 10px 20px 20px;
+}  
+p {
+  font-size: 30px;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+  padding-left: 1px;
+  padding-right: 10px
+}
+.right {
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.halloween-backdrop {
+  background-color: white;
+}
+.Halloween-Font {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: orangered;
+}
+.titlediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titlediv script {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align=center
+}
+.boxset {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px outset orangered;
+  background-color:orangered;
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
